@@ -13,12 +13,54 @@
 
 <body>
 <header>
-    <!-- <?php include("common/header.php");?> -->
+    <?php include("common/header.php");?>
 </header>
 <main>
-    <?php include("main/coontents.php");?>
+    <!-- <?php include("main/coontents.php");?> -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <a class="nav-link" href="event/guide.php">
+      <img src="img/top_1.png" class="d-block w-100" alt="..."></a>
+    </div>
+    <div class="carousel-item">
+      <img src="img/top_2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/top_3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+About Shojin
+
+ガイドブックには載ってない、地域には魅力がたくさんあります。<br>
+精進料理を通して、暮らす人も旅する人ももっと地域を好きになってほしい。<br>
+そんな想いで、生まれたサービスです。
 
 
+
+    <!-- <p>
+        食を知れば旅はもっと面白くなる<br>
+        精進料理を通して季節・地域・文化を体感しましょう
+    </p>
+    <p>
+        旅から帰ったら、もっと地域が好きになる。<br>
+        季節の精進料理をお家で楽しむ。精進料理をご自宅にお届けします
+    </p> -->
 </main>
     
 <footer>

@@ -16,16 +16,16 @@
           <a class="nav-link active" aria-current="page" href="#">はじめに</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">知る</a>
+          <a class="nav-link" href="event/guide.php">参加する</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">食べる</a>
+          <a class="nav-link disabled">提供する</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="intro/intro.php">行く</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">私たちについて</a>
+          <a class="nav-link disabled">会員登録</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="inquiry/inquiry_input.php">お問い合わせ</a>
